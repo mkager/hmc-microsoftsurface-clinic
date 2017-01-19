@@ -7,10 +7,10 @@
 
 %INPUTS:
 Trans_P = 0; %transmitting 0dB from port 1
-Frequency = 2.45E9;
+Frequency = 5.5E9;
 
-VSWR = 1.3;
-Rec_P = -32.5;
+VSWR = -16.16;
+Rec_P = -47.8;
 
 %CALCULATED VALUES:
 Trans_Loss = -10*log10(1-((VSWR-1)/(VSWR+1))^2);
